@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shelk", "Shelk\Shelk.csproj", "{C449E4D8-C40D-4390-848E-1A3D9BF27D55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shelk.CLI", "Shelk.CLI\Shelk.CLI.csproj", "{BF814891-F023-420F-9649-E6ECC6E17182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shelk.Tests", "Shelk.Tests\Shelk.Tests.csproj", "{A7B97992-5959-45CA-B950-7FBC8CDA55B3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C449E4D8-C40D-4390-848E-1A3D9BF27D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C449E4D8-C40D-4390-848E-1A3D9BF27D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C449E4D8-C40D-4390-848E-1A3D9BF27D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C449E4D8-C40D-4390-848E-1A3D9BF27D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF814891-F023-420F-9649-E6ECC6E17182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF814891-F023-420F-9649-E6ECC6E17182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF814891-F023-420F-9649-E6ECC6E17182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF814891-F023-420F-9649-E6ECC6E17182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B97992-5959-45CA-B950-7FBC8CDA55B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B97992-5959-45CA-B950-7FBC8CDA55B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B97992-5959-45CA-B950-7FBC8CDA55B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B97992-5959-45CA-B950-7FBC8CDA55B3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {660FCE2C-3934-40AE-ADDB-C170CC745520}
+	EndGlobalSection
+EndGlobal

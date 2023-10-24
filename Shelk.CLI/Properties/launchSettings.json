@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Shelk.CLI": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\HAJ\\Documents\\Visual Studio 2022\\Projects\\Shelk\\Test Data\\Passing\""
+    }
+  }
+}
