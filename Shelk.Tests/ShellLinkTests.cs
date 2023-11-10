@@ -8,12 +8,13 @@ namespace Shelk.Tests;
 public class ShellLinkTests
 {
     [Theory]
-    [InlineData(@"..\..\..\..\Test Data\Passing", "*.lnk")]
-    public void Initialize_ShouldParseAll(string testDataDirectory, string searchPattern)
+    public void Initialize_ShouldParseAll()
     {
+        string testDataDirectory = Path.Combine("..", "..", "..", "..", "Test Data", "Passing");
+
         // Arrange
         IEnumerable<string> testDataPaths =
-            Directory.EnumerateFiles(testDataDirectory, searchPattern, SearchOption.AllDirectories);
+            Directory.EnumerateFiles(testDataDirectory, "*.lnk", SearchOption.AllDirectories);
 
         // Act
         void InitializeShellLink(string path)
@@ -28,12 +29,13 @@ public class ShellLinkTests
     }
 
     [Theory]
-    [InlineData(@"..\..\..\..\Test Data\Failing", "*.lnk")]
-    public void Initialize_ShouldNotParseAll(string testDataDirectory, string searchPattern)
+    public void Initialize_ShouldNotParseAll()
     {
+        string testDataDirectory = Path.Combine("..", "..", "..", "..", "Test Data", "Failing");
+
         // Arrange
         IEnumerable<string> testDataPaths =
-            Directory.EnumerateFiles(testDataDirectory, searchPattern, SearchOption.AllDirectories);
+            Directory.EnumerateFiles(testDataDirectory, "*.lnk", SearchOption.AllDirectories);
 
         // Act
         void InitializeShellLink(string path)
