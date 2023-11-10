@@ -1,4 +1,6 @@
 # Shelk
+[![Build CI](https://github.com/ArachisH/Shelk/actions/workflows/build.yaml/badge.svg)](https://github.com/ArachisH/Shelk/actions)
+
 Shelk is a .NET cross-platform library for parsing Microsoft's Shell Link(.LNK) binary file.
 
 ## Shell Link Format
