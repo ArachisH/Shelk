@@ -7,7 +7,7 @@ namespace Shelk.Tests;
 
 public class ShellLinkTests
 {
-    [Theory]
+    [Fact]
     public void Initialize_ShouldParseAll()
     {
         string testDataDirectory = Path.Combine("..", "..", "..", "..", "Test Data", "Passing");
@@ -28,7 +28,7 @@ public class ShellLinkTests
         Assert.All(testDataPaths, InitializeShellLink);
     }
 
-    [Theory]
+    [Fact]
     public void Initialize_ShouldNotParseAll()
     {
         string testDataDirectory = Path.Combine("..", "..", "..", "..", "Test Data", "Failing");
